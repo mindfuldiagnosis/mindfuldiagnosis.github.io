@@ -1,24 +1,24 @@
 html{
-	background-color: black;
-	color: white;
+	background-color: #F4EDE4;
+	color: black;
 }
 
 body{
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Consolas,monaco,monospace; 
 }
 
 main{
-	background-color: black;
-	border-top: 2px solid green;
+	background-color: #F4EDE4;
+	border-top: 2px solid black;
 	
 	padding: 3%;
 }
 
 main section{
-	background-color: white;
+	background-color:#F4EDE4;
 	color: black;
 	border-radius: 25px;
 	padding: 10px;
@@ -28,11 +28,6 @@ h2 {
     font-size: 120%;
     padding: .25em 0 .25em 25px;
     cursor: pointer;
-    background: url(../images/plus.png) no-repeat left center;
-}
-
-h2.minus {
-    background: url(../images/minus.png) no-repeat left center;
 }
 
 div {
@@ -87,18 +82,18 @@ nav ul li a{
 
 a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 #border {
-	border-right: 2px solid white;
+	border-right: 2px solid black;
 }
 
 footer{
 	text-align: left;
 	padding-left: 10px; 
 	clear: both;
-	border-top: 2px solid green;
+	border-top: 2px solid black;
 
 }
 
@@ -154,7 +149,7 @@ footer img{
 
 	a {
 		text-decoration: none;
-		color: white;
+		color: black;
 	}
 
 	#border{
@@ -182,16 +177,12 @@ footer img{
 	color: #D3D3D3;
 }
 
-#green{
-	color: green;
+#burgundy {
+	color: #7A3434;
 }
 
 #white {
 	color: white;
-}
-
-#background {
-	background-color: green;
 }
 
 #black {
