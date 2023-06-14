@@ -14,16 +14,9 @@ header{
 	text-align: center;
 }
 
-main{
-	background-color: #F4EDE4;
-	padding: 3%;
-}
-
 main section{
 	background-color:#F4EDE4;
 	color: black;
-	border-radius: 25px;
-	padding: 10px;
 }
 
 #slogan{
@@ -115,13 +108,10 @@ footer{
 	}
 
 	main section{
-		background-color: white;
+		background-color:#F4EDE4;
 		color: black;
-		text-align: center;
-		border-radius: 15px;
-		padding: 10px;
 	}
-
+	
 	a {
 		text-decoration: none;
 		color: black;
