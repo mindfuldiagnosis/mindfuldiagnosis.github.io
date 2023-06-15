@@ -1,3 +1,5 @@
+/* Major CSS */
+
 html{
 	background-color: #F4EDE4;
 	color: black;
@@ -14,10 +16,25 @@ header{
 	text-align: center;
 }
 
-main section{
-	background-color:#F4EDE4;
-	color: black;
+a {
+	text-decoration: none;
 }
+
+header ul li{
+	padding-left: 20px; 
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+}
+
+footer{
+	text-align: left;
+	padding-left: 10px; 
+	clear: both;
+	border-top: 2px solid black;
+}
+
+/*Main Section for page CSS */
 
 #button {
 	background-color: #F4EDE4;
@@ -25,15 +42,11 @@ main section{
 	border-radius: 10px;
 	display: block;
 	margin-top: -70px;
-  	margin-left: 473px;
-  	margin-right: auto;	
+  	margin-left: 473px; 	
 	padding: 10px;
 	width: 10%;
 	color: darkblue;
-	text-align: center;
-	text-decoration: none;
 	font-size: 16px;
-	cursor: pointer;
 }
 
 #button:hover{
@@ -47,16 +60,6 @@ main section{
 	font-size: 25px;
 }
 
-header ul li{
-	padding-left: 20px; 
-	text-align: center;
-	list-style-type: none;
-	display: inline-block;
-}
-
-a {
-	text-decoration: none;
-}
 
 #logo{
 	display: block;
@@ -110,13 +113,33 @@ a {
 	background-color: #111;
 }
 
-footer{
-	text-align: left;
-	padding-left: 10px; 
-	clear: both;
-	border-top: 2px solid black;
+.fa {
+	width: 50px;
+	float: right;
+	text-decoration: none;
+	margin-right: -20px;
+	margin-top: 1px;
 }
 
+.fa:hover {
+    opacity: 0.8;
+}
+
+/* Colors */
+
+#burgundy {
+	color: #7A3434;
+}
+
+#white {
+	color: white;
+}
+
+#black {
+	color: black;
+}
+
+/* Media Screens */
 @media screen and (max-width: 800px) {
 
 	body{
@@ -140,11 +163,6 @@ footer{
 		list-style-type: none;
 	}
 
-	main section{
-		background-color:#F4EDE4;
-		color: black;
-	}
-	
 	a {
 		text-decoration: none;
 		color: black;
@@ -167,22 +185,8 @@ footer{
 		width: 30%;
 		color: darkblue;
 		text-align: center;
-		text-decoration: none;
 		font-size: 16px;
-		cursor: pointer;
 	}
-}
-
-#burgundy {
-	color: #7A3434;
-}
-
-#white {
-	color: white;
-}
-
-#black {
-	color: black;
 }
 
 @media screen and (min-width: 801px) and (max-width: 980px) {
