@@ -58,6 +58,7 @@ footer{
 	padding: 0;
 	overflow: hidden;
 	background-color: white;
+    border-radius: 20px;
 }
   
 #lists{
@@ -91,7 +92,27 @@ footer{
 
 #titlename{
 	text-align: center;
-	font-size: 100%;
+	font-size: 300%;
+    text-decoration: underline;
+}
+
+#donationtext{
+    text-align: left;
+}
+
+#quotes{
+    background-color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#quotes1{
+    background-color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .fa {
@@ -118,6 +139,10 @@ footer{
 
 #black {
 	color: black;
+}
+
+#blue{
+    color: darkblue;
 }
 
 /* Media Screens */
@@ -168,6 +193,15 @@ footer{
 		text-align: center;
 		font-size: 16px;
 	}
+
+    #quotes{
+        background-color: aliceblue;
+        width: 50%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    
 }
 
 @media screen and (min-width: 801px) and (max-width: 980px) {
