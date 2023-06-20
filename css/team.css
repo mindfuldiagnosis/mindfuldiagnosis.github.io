@@ -1,0 +1,225 @@
+/* Major CSS */
+
+html{
+	background-color: #F4EDE4;
+	color: black;
+}
+
+body{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Consolas,monaco,monospace; 
+}
+
+header{
+	text-align: center;
+}
+
+header ul li{
+	padding-left: 20px; 
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer{
+	text-align: left;
+	padding-left: 10px; 
+	clear: both;
+	border-top: 2px solid black;
+}
+
+
+
+/*Main Section for page CSS */
+#button {
+	background-color: #F4EDE4;
+	border: 2px solid #111;
+	border-radius: 10px;
+	display: block;
+	margin-top: 100px;
+  	margin-left: 473px; 	
+	padding: 10px;
+	width: 10%;
+	color: darkblue;
+	font-size: 16px;
+}
+
+#button:hover{
+	background-color: grey;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+    border-radius: 20px;
+}
+  
+#lists{
+	float: left;
+}
+
+#links{
+	display: block;
+	color: #7A3434;
+	text-align: center;
+	padding: 20px 18px;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+#person{
+    padding:-30px; 
+	margin:-30px; 
+	font-size: 15px; 
+}
+
+#logosize{
+	float: right;
+}
+
+#logolinks{
+	display: block;
+	width: 45px;
+	padding-top: 5px;
+	padding-right: 5px;
+    height: auto;
+}
+
+#links:hover {
+	background-color: #111;
+}
+
+#titlename{
+	text-align: center;
+	font-size: 300%;
+    text-decoration: underline;
+}
+
+#donationtext{
+    text-align: left;
+}
+
+#quotes{
+    background-color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#quotes1{
+    background-color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fa {
+	width: 50px;
+	float: right;
+	text-decoration: none;
+	margin-right: -20px;
+	margin-top: 1px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+
+/* Colors */
+#burgundy {
+	color: #7A3434;
+}
+
+#white {
+	color: white;
+}
+
+#black {
+	color: black;
+}
+
+#blue{
+    color: darkblue;
+}
+
+/* Media Screens */
+@media screen and (max-width: 800px) {
+
+	body{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Consolas,monaco,monospace; 
+	}
+
+	html{
+		font-size: 13px;
+	}
+
+	header{
+		padding-right: 35px;
+	}
+
+	header ul li{
+		margin-left: -20px; 
+		text-align: center;
+		list-style-type: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	footer{
+		text-align: center;
+		padding-left: 0px; 
+	}
+
+	#button {
+		background-color: #F4EDE4;
+		border: 2px solid #111;
+		border-radius: 10px;
+		display: block;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding: 10px;
+		width: 30%;
+		color: darkblue;
+		text-align: center;
+		font-size: 16px;
+	}
+
+    #quotes{
+        background-color: aliceblue;
+        width: 50%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 980px) {
+	html{
+		font-size: 20px;
+	}
+
+	nav ul li a{
+		padding: 10px;
+		font-size: 20px;
+		text-decoration: none;
+	}
+}
