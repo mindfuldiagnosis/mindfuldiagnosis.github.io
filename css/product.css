@@ -1,0 +1,76 @@
+html{
+	background-color: #F4EDE4;
+	color: black;
+}
+
+#titlename{
+    text-align:center;
+}
+
+#question1{
+    font-size: 50px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+}
+#question2{
+    padding-top: -10px;
+    font-size: 35px;
+    padding-left: 20px;
+}
+#tfive1{
+    padding-left: 200px;
+    text-align: left;
+    font-size: 40px;
+
+}
+
+#diagnose{
+    font-size: 25px;
+}
+
+#quote{
+    font-size: 30px;
+    color: #0D4F8B;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+#burgundy{
+    color: #7A3434;
+}
+
+
+.white-box1 {
+    background-color: white;
+    color: black;
+    width: 350px;
+    margin-left: 20px;
+    height: 300px;
+    border-radius: 9px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.white-box2 {
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: -250px;
+    border-radius: 9px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.white-box3 {
+    background-color: white;
+    color: black;
+    width: 350px;
+    margin-top: -250px;
+    margin-left: 950px;
+    height: 300px;
+    border-radius: 9px;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 200px;
+}
+
