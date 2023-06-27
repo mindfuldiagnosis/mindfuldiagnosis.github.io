@@ -24,6 +24,15 @@ html{
 
 }
 
+#finmessage{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
 #diagnose{
     font-size: 25px;
 }
@@ -49,6 +58,7 @@ html{
     height: 300px;
     border-radius: 9px;
     box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 0px;
 }
 
 .white-box2 {
@@ -60,6 +70,7 @@ html{
     margin-top: -250px;
     border-radius: 9px;
     box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 0px;
 }
 
 .white-box3 {
@@ -71,6 +82,6 @@ html{
     height: 300px;
     border-radius: 9px;
     box-shadow: 10px 10px 8px #888888;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 
