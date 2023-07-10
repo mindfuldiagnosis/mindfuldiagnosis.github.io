@@ -140,11 +140,15 @@ form p{
 	}
 
 	html{
-		font-size: 13px;
+		font-size: 10px;
+	}
+
+	#logosize{
+		display:none;
 	}
 
 	header{
-		padding-right: 35px;
+		padding-right: 25px;
 	}
 
 	header ul li{
