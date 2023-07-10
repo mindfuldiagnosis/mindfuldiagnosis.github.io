@@ -82,19 +82,64 @@ footer{
 	font-size: 15px; 
 }
 
-.flex_container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	height: 1000px;
-  	align-items: stretch;
-
-	/*justify-content: center; */
-  }
-
 #logosize{
 	float: right;
+}
+
+/* Three columns side by side */
+.column {
+	float: left;
+	width: 30%;
+	margin-bottom: 16px;
+	padding: 0 10px;
+}
+  
+  /* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+	.column {
+	  width: 90%;
+	  display: block;
+	}
+}
+  
+  /* Add some shadows to create a card effect */
+.card {
+	box-shadow: 0 4px 8px 0 grey;
+	background-color: light grey;
+    border: 1px solid black;
+	border-radius: 10px;
+}
+  
+  /* Some left and right padding inside the container */
+.container {
+	padding: 0 10px;
+}
+  
+  /* Clear floats */
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+  
+.title {
+	color: grey;
+}
+  
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+  
+.button:hover {
+	background-color: #555;
 }
 
 #logolinks{
@@ -175,7 +220,11 @@ footer{
 	}
 
 	html{
-		font-size: 13px;
+		font-size: 10px;
+	}
+
+	#logosize{
+		display:none;
 	}
 
 	header{
