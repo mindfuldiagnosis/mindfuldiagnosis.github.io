@@ -85,3 +85,37 @@ html{
     margin-bottom: 20px;
 }
 
+/* nav bar css */
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+    border-radius: 20px;
+}
+
+#lists{
+	float: left;
+}
+
+#links{
+	display: block;
+	color: #7A3434;
+	text-align: center;
+	padding: 20px 18px;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+#logosize{
+	float: right;
+}
+
+#logolinks{
+	display: block;
+	width: 45px;
+	padding-top: 5px;
+	padding-right: 5px;
+    height: auto;
+}
