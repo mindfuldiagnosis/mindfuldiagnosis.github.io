@@ -156,7 +156,11 @@ footer{
 	}
 
 	html{
-		font-size: 13px;
+		font-size: 10px;
+	}
+
+	#logosize{
+		display:none;
 	}
 
 	header{
