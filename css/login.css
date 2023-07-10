@@ -269,9 +269,12 @@ input[type=checkbox]{
 	}
 
 	html{
-		font-size: 13px;
+		font-size: 10px;
 	}
 
+	#logosize{
+		display:none;
+	}
 	header{
 		padding-right: 35px;
 	}
