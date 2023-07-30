@@ -6,27 +6,26 @@
   font-family: "Asap", sans-serif;
 }
 body{
-  background: #42455a;
+    background-color: #F4EDE4;
 }
 section{
-  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 section:nth-child(1){
-  color: #e0ffff;
+  color: black;
   }
 section:nth-child(2){
-  color: #42455a;
-  background: #e0ffff;
+  color: black;
 } 
 section:nth-child(3){
-  color: #e0ffff;
+  color: black;
 }
 section:nth-child(4){
-  color: #42455a;
-  background: #e0ffff;
+  margin-bottom: -100px;
+  color: black;
 }
 section .container{
   margin: 100px;
@@ -44,9 +43,16 @@ section .text-container{
    display: flex;
 }
 section .text-container .text-box{
-  margin: 20px;
-  padding: 20px;
-  background: #00c2cb;
+  font-size: 30px;
+  background-color: white;
+    color: #0D4F8B;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: fit-content;
+    border-radius: 9px;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 0px;
 }
 section .text-container .text-box h3{
   font-size: 30px;
