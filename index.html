@@ -1,71 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>    
-    <title>Mindful Diagnosis</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>| Home</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	
+	<!--CSS Links--->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+	
+	<!--boxicon links--->
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	
+	<!--remixicon links--->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">  
+	
+	<!--Google Fonts--->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
 
-    <nav> 
-        <ul id="navbar">
-          <li id="lists">
-            <a href="construction.html" id="links"><b>Product</b></a>
-          </li>
+<body>
+	
+	<header id="transparent">
+		<a href="index.html" class="logo"><img src="images/logo.png"></a>
+		
+		<ul class="navlist">
+			<li><a id="colorStay" href="index.html">Home</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="donate.html">Donate</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header> 
+	
+	<section class="hero">
+		<div class="hero-text">
+			<h1 id="center">Mindful Diagnosis</h1>
+			<p><span id="fontsize">H</span>ello, we are a non-profit organization working on a educational system for an easier
+			way to mindfully mitigate bias in the healthcare industry. 
+			Learn more about our organizations product by clicking on "Our Product". 
+			You can also check out our team by clicking on "Our Team". 
+			Donate to us by clicking on the "Donate" button. 
+			Lastly, you can contact us uby clicking on the "Contact Us" button. </p>
+			<a href="product.html" class="ctaa"><i class="ri-product-hunt-line"></i>Our Product</a>
+			<a href="team.html" class="ctaa"><i class="ri-group-line"></i>Our Team</a>
+			<a href="contact.html" class="ctaa"><i class="ri-product-hunt-line"></i>Contact Us</a>
+			<a href="donate.html" class="ctaa"><i class="ri-group-line"></i>Donate</a>
+		</div>
+		
+		<div class="hero-image">
+			<img src="images/logo.png">
+		</div>
+	</section>
+	
+	<div class="icons">
+		<a target="_blank" href="https://www.instagram.com/mindful_diagnosis/"><i class="ri-instagram-line"></i><a>
+		<a target="_blank" href="mailto:contact.mindfuldiagnosis@gmail.com"><i class="ri-mail-line"></i></a>
+	</div>
+	
+	<div class="footer">
+		<p>@2023 Mindful Diagnosis</p>
+	</div>
+	
+	<!--ScrollReveal script-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	
+	<!--custom js--->
+	<script src="js/script.js"></script>
+	<script src="js/scroll.js"></script>
 
-          <li id="lists">
-            <a href="team.html" id="links"><b>Team</b></a>
-          </li>
+</body>
 
-          <li id="lists">
-            <a href="donate.html" id="links"><b>Donate</b></a>
-          </li>
-
-          <li id="lists">
-            <a href="contact.html" id="links"><b>Contact</b></a>
-          </li> 
-
-          <li id="logosize">
-            <a href="index.html">
-              <img src="images/logo.png" id="logolinks" alt="logo">
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-    <header>
-      <ul>
-        <li>
-          <a href="index.html" >
-            <h1 id="titlename"><span id="burgundy"><b>Mindful Diagnosis</b></span></h1>
-          </a>
-        </li>  
-
-        <p id="slogan"><b>An easier way to mindfully mitigate bias</b></p>
-
-        <li>  
-            <img id="logo" src="images/logo.png" alt="Home Button">
-        </li>
-
-        <a href="#" id="button">Learn More</a>
-      </ul>
-    </header>  
-
-    <main>
-      <section>
-        <p></p>
-      </section>
-    </main>
-    
-    <footer>
-      @ 2023 by Mindful Diagnosis
-      <a href="https://www.instagram.com/mindful_diagnosis/" target="_blank" class="fa fa-instagram"></a>
-    </footer>
-
-  </body>
 </html>
