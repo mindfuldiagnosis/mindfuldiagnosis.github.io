@@ -223,6 +223,11 @@ section{
 		padding: 0px 3%;
 		transition: .2s;
 	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
+	}
 }
 
 @media (max-width: 1460px){
@@ -234,6 +239,11 @@ section{
 		width: 40%;
 		height: auto;
 		margin-left: auto;
+	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
 	}
 }
 
