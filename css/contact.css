@@ -156,12 +156,22 @@ section{
 		padding: 0px 3%;
 		transition: .2s;
 	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
+	}
 }
 
 @media (max-width: 1460px){
 	section{
 		padding: 0 12%;
 		transition: .2s;
+	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
 	}
 }
 
