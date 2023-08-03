@@ -91,7 +91,20 @@ section{
 
 .titleName h1{
 	text-align: left;
-	margin-top: 100px;
+	margin-top: 80px;
+    margin-left: 50px;
+}
+
+.titleName1{
+	font-size: 20px;
+	color: #7A3434;
+	text-align: center;
+	line-height: 1;
+}
+
+.titleName1 h1{
+	text-align: left;
+	margin-top: 10px;
     margin-left: 50px;
 }
 
@@ -227,6 +240,11 @@ section .text-container-2 .text-box-2{
 	height: auto; 
 	margin-bottom: 10px;
 	border-radius: 10px;
+}
+
+#remove{
+	list-style:disc outside none; 
+	display:list-item;
 }
 
 .icons{
@@ -407,6 +425,9 @@ section .text-container-2 .text-box-2{
 	.hero-text a {
 		margin-bottom: 10px;
 		text-align: center;
+	}
+	#remove{
+		list-style-type: none; 
 	}
 	#images{
 		width: 100%;
