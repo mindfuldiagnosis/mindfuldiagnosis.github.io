@@ -283,6 +283,11 @@ section .text-container-2 .text-box-2{
 		padding: 0px 3%;
 		transition: .2s;
 	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
+	}
 }
 
 @media (max-width: 1460px){
@@ -294,6 +299,11 @@ section .text-container-2 .text-box-2{
 		width: 40%;
 		height: auto;
 		margin-left: auto;
+	}
+	header img{
+		width: 40px;
+		height: auto;
+		margin-right: auto;
 	}
 }
 
@@ -323,7 +333,6 @@ section .text-container-2 .text-box-2{
 		height: auto;
 		margin-right: auto;
 	}
-	
 	.hero-text{
 		padding-top: 50px;
 		text-align: center;
