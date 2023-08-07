@@ -90,14 +90,14 @@ section{
 	color: #7A3434;
 	white-space: nowrap; /* Keeps the content on a single line */
 	line-height: 1;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .hero-text p{
 	font-size: 20px;
 	color: black;
 	line-height: 1.5;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
@@ -196,7 +196,7 @@ section{
 @media (max-width: 1340px){
 	.hero-text h1{
 		font-size: 30px;
-		margin: 0 0 30px;
+		margin-top: 80px;
 	}
 	header img{
 		width: 40px;
