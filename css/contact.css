@@ -74,6 +74,7 @@ body{
 	min-height: 100vh;
 	position: relative;
 	align-items: center;
+	margin-top: 100px;
 	gap: 2rem;
 }
 
@@ -183,6 +184,10 @@ section{
 		height: auto;
 		margin-right: auto;
 	}
+	
+	.hero{
+		margin-top: 100px;
+	}
 }
 
 @media (max-width: 1340px){
@@ -199,6 +204,9 @@ section{
         height: auto;
         margin-right: auto;
     }
+	.hero{
+		margin-top: 100px;
+	}
 }
 
 @media (max-width: 1195px){
@@ -223,6 +231,7 @@ section{
 		height: 100%;
 		gap: 1rem;
 		grid-template-columns: 1fr;
+		margin-top: 100px;
 	}
 	.icons{
 		display: none;
@@ -266,6 +275,14 @@ section{
 	.hero-image img{
 		width: 100%;
 		height: auto;
+	}
+
+	.hero-text a {
+		font-size: 20px;
+	}
+	
+	.hero{
+		margin-top: 120px;
 	}
 }
 
