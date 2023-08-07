@@ -85,9 +85,10 @@ section{
 	font-size: 75px;
 	color: #7A3434;
 	line-height: 1;
-
-	top: 50%;
-	left: 50%;
+	display: flex;
+	flex: none;
+	position: relative;
+	justify-content: center;
 	
 }
 
@@ -109,9 +110,11 @@ section{
 	border-radius: 30px;
 	transition: all .55s ease;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
+	flex: none;
+	position: relative;
+	justify-content: center;
+
+
 }
 
 .hero-text a:hover{
