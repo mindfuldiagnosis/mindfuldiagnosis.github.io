@@ -46,7 +46,7 @@ body{
 }
 
 .navlist a:hover{
-	border-bottom: 2px solid #824945;
+	color: #7A3434;
 }
 
 #colorStay{
