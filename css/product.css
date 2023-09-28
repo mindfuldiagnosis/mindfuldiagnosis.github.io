@@ -17,7 +17,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	padding: 33px 9%;
-	background-image: linear-gradient(to right, #DECBA4, #F4EDE4);
+	background-image: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 header img{
@@ -27,7 +27,7 @@ header img{
 }
 
 body{
-	background: #F4EDE4;
+	background-image: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 .logo{
@@ -150,7 +150,7 @@ section .text-container{
 section .text-container .text-box{
     font-size: 20px;
     text-align: center;
-    background-color: #F4EDE4;
+    background-image: linear-gradient(to right, #ffefba, #ffffff);
     color: black;
     width: 300px;
     padding: 20px;
@@ -165,11 +165,16 @@ section .text-container-2 {
     display: flex;
 }
 
+#text-box{
+	position: fixed;
+	display: none;
+}
+
 section .text-container-2 .text-box-2{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    background-color: #F4EDE4;
+    background-image: linear-gradient(to right, #ffefba, #ffffff);
     color: black;
     width: 300px;
     padding: 20px;
