@@ -85,6 +85,10 @@ section{
 	font-size: 35px;
 }
 
+#underline{
+	text-decoration: underline;
+}
+
 .hero-text h1{
 	font-size: 50px;
 	color: #7A3434;
@@ -232,6 +236,9 @@ section{
 	.icons{
 		display: none;
 	}
+	#fontsize{
+		font-size: 30px;
+	}
 }
 
 @media (max-width: 990px){
@@ -269,6 +276,9 @@ section{
 		}
 		.navlist.open{
 			right: 0;
+		}
+		#fontsize{
+			font-size: 26px;
 		}
 }
 
