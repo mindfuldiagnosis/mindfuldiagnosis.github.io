@@ -18,7 +18,7 @@ header{
 	justify-content: space-between;
 	padding: 33px 9%;
 	background: #F4EDE4;
-	background-image: linear-gradient(to right, #ffefba, #ffffff);
+	background-image: linear-gradient(to right, #F4EDE4, #ffffff);
 }
 
 header img{
@@ -28,7 +28,7 @@ header img{
 }
 
 body{
-	background-image: linear-gradient(to right, #ffefba, #ffffff);
+	background-image: linear-gradient(to right, #F4EDE4, #ffffff);
 }
 
 .navlist{
