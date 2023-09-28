@@ -17,7 +17,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	padding: 33px 9%;
-	background-image: linear-gradient(to right, #DECBA4, #F4EDE4);
+	background-image: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 header img{
@@ -27,7 +27,7 @@ header img{
 }
 
 body{
-	background: #F4EDE4;
+	background-image: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 .logo{
