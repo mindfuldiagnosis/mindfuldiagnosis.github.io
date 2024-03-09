@@ -73,7 +73,7 @@ const ProductLayout = () => {
                 <TeamCard
                   name="Meera Rajeev"
                   position="CEO"
-                  imageSrc="/Meera.jpg"
+                  imageSrc="/Meera.JPG"
                   description="Meet Meera, a determined third-year biomedical science major at The Ohio State University, aspiring to become a physician. Alongside her academic pursuits, she spends her free time binge-reading captivating books and helping train service dogs. As Chief Executive Officer, Meera leads the development of our innovative implicit bias training program and oversees outreach efforts for Mindful Diagnosis. Her personal experience with healthcare disparities as a person of color drives her mission to implement effective change. Through this non-profit, she aims to transform the lives of countless patients through enhanced implicit-bias awareness and equitable medical education."
                 />
                 <TeamCard
