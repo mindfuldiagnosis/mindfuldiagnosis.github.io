@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { TeamCard } from "./_components/Teambar";
+import { TeamCard } from "./_components/teamCards";
 import { useState, useEffect } from 'react';
 import { Mails, Linkedin, Instagram} from "lucide-react";
 
@@ -13,7 +13,7 @@ const ProductLayout = () => {
           Mindful Diagnosis
         </h1>
         <p className="text-lg md:text-lg text-gray-700 mb-6 italic font-bold">
-          TRANSFORMING MEDICAL BIAS EDUCATIONL, ONE MIND AT A TIME
+          TRANSFORMING MEDICAL BIAS EDUCATION, ONE MIND AT A TIME
         </p>
         <p className="text-orange-800 rounded-full py-1 px-4 mb-6 flex items-center justify-center  text-lg md:text-lg font-bold italic">
           Sign up below for exclusive access
