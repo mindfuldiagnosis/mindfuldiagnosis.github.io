@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -b gh-pages -t true"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
