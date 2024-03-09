@@ -21,9 +21,9 @@ const ProductLayout = () => {
               <X size={24} />
             </button>
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Fill this form out!</h2>
-            <p className="text-lg md:text-xl text-gray-700 mb-6 text-center">Attention medical students, physicians, nurses, and others! Please take a moment to fill out the form below to get access to betatesting of our software!</p>
+            <p className="text-lg md:text-xl text-gray-700 mb-6 text-center">Attention medical students, physicians, nurses, and other healthcare professionals! Please take a moment to fill out the form below to get access to the beta testing of our software!</p>
             <div className="flex justify-center">
-              <Link href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScfWRRZTdL-0qc2dtFRclXmjilma96y2hVR7h8JlQrw0ijA2w/viewform?usp=send_form">
+              <Link href="https://forms.gle/LkuHKyoQaDuBKaHJ8" target="_blank">
                 <Button
                   size="lg"
                   variant="ghost"
