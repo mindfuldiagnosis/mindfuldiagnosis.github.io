@@ -3,11 +3,40 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { TeamCard } from "./_components/teamCards";
 import { useState, useEffect } from 'react';
-import { Mails, Linkedin, Instagram} from "lucide-react";
+import { Mails, Linkedin, Instagram, X} from "lucide-react";
 
 const ProductLayout = () => {
+  const [showPopup, setShowPopup] = useState(true);
+  
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
+
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-white to-orange-300">
+    {showPopup && (
+        <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
+          <div className="bg-white m-8 md:p-8 rounded-lg shadow-lg relative">
+            <button className="absolute top-0 right-0 p-2" onClick={handleClosePopup}>
+              <X size={24} />
+            </button>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Fill this form out!</h2>
+            <p className="text-lg md:text-xl text-gray-700 mb-6 text-center">Attention medical students, physicians, nurses, and others! Please take a moment to fill out the form below to get access to betatesting of our software!</p>
+            <div className="flex justify-center">
+              <Link href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScfWRRZTdL-0qc2dtFRclXmjilma96y2hVR7h8JlQrw0ijA2w/viewform?usp=send_form">
+                <Button
+                  size="lg"
+                  variant="ghost"
+                  className="border-2 border-black hover:bg-orange-200 py-2 md:py-3 px-4 md:px-6 rounded-md text-lg md:text-3xl"
+                  onClick={handleClosePopup}
+                >
+                  <div className="text-black">Click Here for Form</div>
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
       <main className="text-center px-6 md:px-12 lg:px-24">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 pt-20">
           Mindful Diagnosis
