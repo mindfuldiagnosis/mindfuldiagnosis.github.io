@@ -16,7 +16,7 @@ const ProductLayout = () => {
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-white to-orange-300">
     {showPopup && (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-          <div className="bg-white m-8 md:p-8 rounded-lg shadow-lg relative">
+          <div className="bg-white p-4 m-8 md:p-8 rounded-lg shadow-lg relative">
             <button className="absolute top-0 right-0 p-2" onClick={handleClosePopup}>
               <X size={24} />
             </button>

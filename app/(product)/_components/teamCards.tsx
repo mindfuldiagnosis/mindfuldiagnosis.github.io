@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
+import { X, LogOut} from 'lucide-react';
 
 interface TeamCardProps {
   name: string, 
@@ -30,7 +31,10 @@ export const TeamCard = ({
       </div>
       {showModal && (
         <div className="fixed top-0 left-0 flex justify-center items-center w-full h-full bg-orange-200 bg-opacity-80">
-          <div className="bg-white p-4 rounded-3xl text-center">
+          <div className="bg-white p-4 m-3 rounded-3xl text-center">
+            <button className="absolute top-0 right-0 p-2" onClick={toggleModel}>
+              <X size={24} />
+            </button>
             <img src={imageSrc} alt={name} className=" border-black border-4 w-25 h-26 rounded-3xl mx-auto mb-4" />
             <p className="text-gray-700 md:text-lg text-sm">{description}</p>
             <Button 
